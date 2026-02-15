@@ -310,3 +310,19 @@ table th,
 table td {
   text-overflow: ellipsis;
 }
+
+body {
+    background-image: url("HBKCMfDaEAAUXDc.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: -1;
+}
